@@ -1,0 +1,76 @@
+enabled: true
+
+# Profile
+profile:
+  name: "Romano Kleinwächter"
+  desc: "Senior Software Developer · Fitness Lover · Twitch Streamer"
+  avatar_url: "https://www.gravatar.com/avatar/d0688c46472c4ece63e4f7dae0acf84b?s=200"
+  informations:
+    - icon: "map-marker"
+      label: "Location"
+      url: ""
+      text: "Berlin, Germany"
+
+    - icon: "envelope-o"
+      label: "Email"
+      url: "mailto:romano.kleinwaechter@gmail.com"
+      text: "romano.kleinwaechter@gmail.com"
+
+    - icon: "link"
+      label: "Website"
+      url: "https://rkl.io"
+      text: "https://rkl.io"
+
+# Github
+github: "rkl-"
+
+## Coderwall
+#coderwall: "tnajdek"
+
+# RSS Feed
+rss_feed:
+  url: "https://blog.rkl.io/en/blog.rss"
+  limit: 3
+  effect: "slideFastSynced" # valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
+
+# Linkedin
+linkedin: "https://www.linkedin.com/in/romano-kleinw%C3%A4chter-12066492/"
+
+# Social Networks
+social:
+  networks:
+    - url: "https://twitter.com/rkleinwaechter"
+      icon: "twitter"
+      title:
+
+    - url: "https://www.xing.com/profile/Romano_Kleinwaechter2"
+      icon: "xing"
+      title:
+
+    - url: "https://www.linkedin.com/in/romano-kleinw%C3%A4chter-12066492/"
+      icon: "linkedin"
+      title:
+
+    - url: "https://github.com/rkl-"
+      icon: "github-alt"
+      title:
+
+    - url: "https://www.youtube.com/channel/UCBin49EEXLjd8xDJ9YRhWKQ"
+      icon: "youtube"
+      title:
+
+    - url: "https://www.instagram.com/rkl.io"
+      icon: "instagram"
+      title:
+
+    - url: "https://www.twitch.tv/rkl85"
+      icon: "twitch"
+      title:
+
+# Grav streams
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      paths:
+        - user/themes/developer
